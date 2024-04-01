@@ -1,4 +1,27 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+  main {
+    width: 50vw;
+    padding: 2em;
+  }
+  
+  main:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
 section {
+    height:9em;
     background-color: #A5D6A7;
 }
 h1 {
@@ -11,6 +34,7 @@ h2 {
     background-color: #7986cb;
 }
 article {
+    height:9em;
     background-color: #F48FB1
 }
 article p {
@@ -19,4 +43,10 @@ article p {
 button {
     background-color: #304FFE;
     color: white;
+
 }
+
+h6 {
+    margin: 5vh;
+    text-align: center;
+    }
